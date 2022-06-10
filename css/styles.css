@@ -1,4 +1,14 @@
 .tituloPrincipal{
     border: solid 5px green;
     border-radius: 10px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.parrafoImpar{
+    border: solid 5px black;
+}
+
+.parrafoPar{
+    border: solid 5px green;
 }
