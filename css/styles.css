@@ -20,9 +20,18 @@
 .contenedorPrincipal{
     height: 80vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+.contenedorFilas, .contenedorImagen{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 5px green; */
 }
 
 .contenedorFila{
@@ -37,8 +46,19 @@
 
 .contenedorFila p{
     width: 30%;
-    font-size: 60px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     border-radius: 10px;
 }
+
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImagen img{
+    width: 80%;
+}
+
