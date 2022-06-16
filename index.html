@@ -31,13 +31,20 @@
                     <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="">
                 </div>
                 <div class="contenedorVideo">
-                    <video class="video" autoplay controls loop>
+                    <video class="video" id="videoUno">
                         <source = src="media/videoUno.mp4" type="video/mp4">
                     </video>
+                </div>
+                <div>
+                    <button onclick="playPause()">&#9658;/||</button>
+                    <button onclick="stop()">&#9726;/||</button>
+                    <button onclick="skip(-10)">&lt;&lt;/||</button>
+                    <button onclick="skip(10)">&gt;&gt;/||</button>
                 </div>
             </div>
         </div>
     </div>
+<script src="script/js.js"></script>
 </body>
 
 </html>
